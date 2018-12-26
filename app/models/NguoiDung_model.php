@@ -17,7 +17,7 @@ class NguoiDung_model extends CI_Model
             'Email' => $_POST['email'],
             'GioiThieuBanThan' => $_POST['gioiThieuBanThan'],
             'AnhDaiDien' => $_POST['anhDaiDien'],
-            'MaQH' => 1
+            'MaQH' => 0
         );
         $inserted = $this->db->insert('NGUOIDUNG', $data);
         return $inserted;
