@@ -97,9 +97,12 @@ $port = strtok(":");
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => $connectstr_dbhost,
-	'username' => $connectstr_dbusername,
-	'password' => $connectstr_dbpassword,
+	//'hostname' => $connectstr_dbhost,
+	//'username' => $connectstr_dbusername,
+	//'password' => $connectstr_dbpassword,
+	'hostname' => 'topfood.mysql.database.azure.com',
+	'username' => 'adminadmin@topfood',
+	'password' => '@abc123@',
 	'port'     => $port,
 	'database' => 'topfood',
 	'dbdriver' => 'mysqli',
